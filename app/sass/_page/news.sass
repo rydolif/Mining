@@ -1,0 +1,164 @@
+.news-bg
+	padding-top: 135px
+.news-info
+	padding-top: 60px
+	display: flex
+	flex-direction: row
+
+	.filter
+		margin-right: 25px
+		margin-bottom: 35px
+.content-block
+	h3
+		font-size: 20px
+		font-weight: 300
+		text-align: left
+		position: relative
+		color: #384656
+		text-transform: uppercase
+		margin-bottom: 40px
+		&:before
+			content: ''
+			position: absolute
+			left: 0
+			bottom: -20px
+			height: 1px
+			width: 100px
+			background-color: #1cbb8c
+	img
+		margin-bottom: 35px
+		width: 90%
+		height: 450px
+	p
+		color: #6b6b6b
+		font-size: 14px
+		font-weight: 400			
+		margin-bottom: 50px
+.slick-initialized .slick-slide
+	margin-right: 20px		
+.slick-list 
+.content-block 
+	img
+		width: 100%
+		height: 90%
+		margin-bottom: 0
+	p
+		margin-top: 30px	
+.slick-track
+	margin: 0
+.slick-slide .slick-current .slick-active
+	width: 170px	!important		
+.right-wrapp
+	padding-top: 60px
+	position: relative
+	.raund
+		position: absolute
+		height: 160px
+		width: 130px
+		top: 130%
+		left: 70%
+		z-index: -1
+		
+
+	h4
+		color: #053880
+		font-size: 24px
+		font-weight: 300
+		text-transform: uppercase
+		position: relative
+		margin-bottom: 18px
+		&:before
+			position: absolute
+			content: ''
+			left: 0
+			bottom: -18px
+			width: 100%
+			height: 1px
+			background-color: #3089fc	
+		
+	
+	.list
+		padding-top: 23px
+		display: flex
+		flex-direction: row
+		border-bottom: 1px solid #e8e8e8
+		padding-bottom: 23px
+		&-wrapp
+			width: 47%
+			display: flex
+			flex-direction: column	
+			margin-left: 20px
+
+			img
+				height: 100px
+				width: 170px
+
+			h6
+				text-transform: uppercase
+				color: #384656
+				font-size: 16px
+				position: relative
+				margin-bottom: 15px
+				&:before
+					position: absolute
+					content: ''
+					width: 35px
+					height: 1px
+					left: 0
+					bottom: -10px
+					background-color: #2adb64
+			.by-news
+				display: flex
+				flex-direction: row
+				time
+					color: #adadad
+					font-size: 12px
+					margin-right: 5px
+				p
+					font-size: 12px
+					color: #adadad
+					text-transform: uppercase
+	.news
+		color: #1cbb8c				
+							
+
+
+
+@media only screen and (max-width : 1200px)
+	.content-block 
+		h3
+			font-size: 18px
+			margin-bottom: 30px
+			&:before
+				bottom: -9px
+		p
+			margin-top: 20px
+			margin-bottom: 50px		
+	.right-wrapp 
+		.list
+			flex-direction: column
+			img
+				width: 100%
+				height: auto
+				margin-bottom: 10px
+		.list-wrapp
+			width: 100%
+			margin-left: 0		
+																				
+
+@media only screen and (max-width : 992px)
+	.news-bg
+		padding-top: 90px
+		h1
+			margin-bottom: 10px
+	.right-wrapp 
+		h4
+			font-size: 18px
+@media only screen and (max-width : 767px)	
+	.right-wrapp
+		padding-top: 10px
+	.card-inside
+		padding-bottom: 50px	
+@media only screen and (max-width : 480px)
+	.news-bg
+		padding-top: 50px

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 136.6 136.6" style="enable-background:new 0 0 136.6 136.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<g>
+	
+		<radialGradient id="SVGID_1_" cx="23.5448" cy="106.9746" r="277.6654" fx="-62.1024" fy="94.5333" gradientTransform="matrix(0.6534 -0.757 0.6147 0.5306 -57.595 68.0395)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#F6E93D"/>
+		<stop  offset="5.303711e-002" style="stop-color:#F5DE51"/>
+		<stop  offset="0.1617" style="stop-color:#F1C073"/>
+		<stop  offset="0.3148" style="stop-color:#EC8385"/>
+		<stop  offset="0.4486" style="stop-color:#E82F7C"/>
+		<stop  offset="0.5931" style="stop-color:#BB4288"/>
+		<stop  offset="0.7376" style="stop-color:#8A4C92"/>
+		<stop  offset="0.8577" style="stop-color:#5E4E99"/>
+		<stop  offset="0.9487" style="stop-color:#3D4F9D"/>
+		<stop  offset="1" style="stop-color:#2E4F9E"/>
+	</radialGradient>
+	<path class="st0" d="M136.8,113.2c0,12.9-10.4,23.3-23.3,23.3H23.5c-12.9,0-23.3-10.4-23.3-23.3V23.3C0.2,10.4,10.7,0,23.5,0h89.9
+		c12.9,0,23.3,10.4,23.3,23.3V113.2z"/>
+	<g>
+		<g>
+			<path class="st1" d="M90.2,122.5H46.7c-19.3,0-35-15.7-35-35V49.1c0-19.3,15.7-35,35-35h43.5c19.3,0,35,15.7,35,35v38.3
+				C125.3,106.8,109.5,122.5,90.2,122.5z M46.7,21.9c-15,0-27.2,12.2-27.2,27.2v38.3c0,15,12.2,27.2,27.2,27.2h43.5
+				c15,0,27.2-12.2,27.2-27.2V49.1c0-15-12.2-27.2-27.2-27.2H46.7z"/>
+		</g>
+		<g>
+			<path class="st1" d="M68.5,99.5c-17.2,0-31.2-14-31.2-31.2c0-17.2,14-31.2,31.2-31.2c17.2,0,31.2,14,31.2,31.2
+				C99.7,85.5,85.7,99.5,68.5,99.5z M68.5,44.9c-12.9,0-23.4,10.5-23.4,23.4c0,12.9,10.5,23.4,23.4,23.4c12.9,0,23.4-10.5,23.4-23.4
+				C91.9,55.4,81.4,44.9,68.5,44.9z"/>
+		</g>
+		<g>
+			<circle class="st1" cx="99.2" cy="38.1" r="6.5"/>
+		</g>
+	</g>
+</g>
+</svg>

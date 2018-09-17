@@ -1,0 +1,611 @@
+@media only screen and (max-width : 1400px)
+	.proposition .raund
+		left: 91%
+@media only screen and (max-width : 1200px)
+
+	.header
+		&__logo
+			margin-right: 40px
+			margin-bottom: 10px
+			img
+				width: 90px
+				height: 60px
+		&__contacts
+			img
+				height: 15px
+				width: 15px
+				margin-right: 5px	
+			a:nth-child(1)
+				font-size: 16px		
+	.nav li
+		margin-right: 15px	
+
+	.hero 
+		padding-bottom: 140px
+		padding-top: 180px
+		strong
+			font-size: 30px	
+		h1
+			font-size: 36px		
+		p
+			font-size: 16px
+		&__content
+			margin-bottom: 40px	
+
+	.proposition 
+		padding-bottom: 30px
+		h2
+			font-size: 36px
+			
+		.card
+			height: 400px
+			img
+				width: 260px	
+			h3
+				font-size: 20px					
+			strong	
+				margin-bottom: 5px
+				font-size: 14px	
+			&:hover
+				h3
+					font-size: 26px
+				strong
+					font-size: 18px	
+					margin-bottom: 35px
+				p
+					margin-bottom: 20px	
+
+	.company
+		padding-top: 60px
+		h2
+			font-size: 36px
+		&__wrapper
+			.right-block
+				.swiper-news 
+					.slider-content
+						margin-bottom: 15px
+						time
+							margin-bottom: 15px
+				.see-all
+					bottom: -30px	
+	.form-block
+		padding-top: 60px
+		padding-bottom: 90px
+		&:before
+			font-size: 40px
+			top: 7%
+			left: 12%
+		h2
+			font-size: 36px
+			margin-bottom: 0
+		.coin-form
+			top: -28px
+			width: 40%	
+			left: 60%
+		&__content
+			p
+				font-size: 20px	
+		.request-form__field
+			width: 200px		
+		.raund
+			width: 140px
+			right: 85%	
+	.partners 
+		padding-top: 60px
+		padding-bottom: 60px
+		h2
+			font-size: 36px
+		.raund
+			width: 160px	
+
+
+	.footer
+		padding-top: 10px
+		padding-bottom: 10px
+		&__logo
+			margin-right: 40px
+			margin-bottom: 10px
+			img
+				width: 90px
+				height: 60px
+		&__contacts
+			img
+				height: 15px
+				width: 15px
+				margin-right: 5px	
+			a:nth-child(1)
+				font-size: 16px		
+	.nav li
+		margin-right: 15px
+	.copyright
+		p
+			font-size: 12px		
+
+
+	.piramid
+		padding-top: 400px		
+	.sources p
+		br
+			display: none
+
+	.advantages
+		&__list
+			max-width: 610px
+			margin-right: 20px
+		&__title
+			font-size: 16px
+
+@media only screen and (max-width : 992px)
+	#thanks
+		padding: 40px
+
+	.modal
+		width: 320px
+		padding: 40px
+	
+	.nav
+		position: fixed
+		display: block
+		width: 320px
+		height: 100%
+		flex-direction: column
+		right: -100%
+		top: 80px
+		z-index: -1
+		background: rgba(0, 0, 0, .9)
+		transition: all .3s
+
+		ul
+			display: flex
+			flex-direction: column
+			justify-content: center
+			margin-top: 40px
+			margin-left: 40px
+
+		li
+			margin: 0
+			margin-bottom: 10px
+
+		a
+			color: #fff
+			display: block
+			&::before
+				content: ''
+				width: 0
+				transform: scale(0)
+				transition: all .3s
+				position: absolute
+				bottom: 0
+				width: 80%
+				height: 1px
+				background-color: $accent
+				z-index: -1
+
+			&:hover
+				color: #17b991
+				text-decoration: none
+				&::before
+					transform: scale(1)
+
+			&:focus
+				color: #17b991
+				text-decoration: none
+				&::before
+					transform: scale(1)
+		&-active
+			right: 0
+			top: 0
+			z-index: 10
+			border-right: none
+			width: 300px
+			ul
+				margin-left: 0
+				margin-top: 60px
+				text-align: center
+		
+								
+
+				
+		.hamburger-active
+			right: 20px
+			position: fixed
+			
+			
+
+
+	.hamburger
+		display: block
+		z-index: 1001
+		right: 15px
+
+	.hamburger-box
+		right: 0
+
+	.header
+		padding: 0
+		&__contacts
+			margin-right: 70px	
+		&__logo
+			margin-right: 0	
+		.language-chooser
+			margin-left: auto
+			margin-right: 10px
+	.nav-active .header__contacts
+		margin-right: 0
+		text-align: center
+			
+	.hero
+		padding-top: 150px
+		padding-bottom: 100px		
+
+	.proposition 
+		p
+			margin-bottom: 25px
+			font-size: 14px
+			br
+				display: none
+		.card
+			height: 320px
+			img
+				width: 200px
+			&:hover
+				padding: 10px
+				img
+					left: 0	
+				h3
+					font-size: 22px
+				strong
+					font-size: 15px
+					margin-bottom: 20px	
+					&:before
+						bottom: -8px
+				p
+					font-size: 14px
+					line-height: 1.4	
+				.propos-btn
+					padding: 15px 30px
+					font-size: 12px	
+					width: 180px	
+					&:before
+						top: 12px		
+	.company 
+		h2
+			font-size: 32px	
+		&__wrapper 
+			.swiper-wrapper
+				padding-top: 60px
+				.swiper-slide
+					.top-content
+						padding-top: 0
+						img
+							height: 125px
+							top: -56px
+						strong
+							font-size: 15px		
+						h4
+							margin-bottom: 7px
+							font-size: 20px
+						p
+							font-size: 13px
+							width: 90%
+							line-height: 1.5
+					.down-content
+						margin-left: 0
+						img
+							width: 100px
+					.text-block
+						h4
+							font-size: 15px	
+			.swiper-button-prev
+				left: 77%	
+			.news-next, .news-prev
+				top: 60px
+				&:before
+					top: 62px
+			.news-prev
+				left: 85%
+			.right-block
+				.see-all
+					bottom: -45px
+				.swiper-news
+					.slider-content
+						a
+							br
+								display: none
+
+	.form-block
+		padding-bottom: 60px	
+		.raund
+			z-index: 0						
+		h2
+			font-size: 32px	
+		&__content
+			margin-left: 0
+			p
+				font-size: 20px
+			form
+				width: 100%							
+	.partners
+		padding-top: 40px
+		padding-bottom: 50px
+		&__wrap-card
+			p
+				br
+					display: none
+	.map__card 
+		height: 420px
+		width: 400px
+		h2
+			font-size: 32px
+			margin-bottom: 15px
+		.social
+			margin-left: 28px	
+		.list
+			.wrapper
+				margin-bottom: 10px
+				img
+					height: 20px
+					width: 20px
+	.footer
+		padding: 5px 0 5px 0 
+
+	.piramid
+		padding-top: 300px	
+
+	
+	.sources
+		&__icon
+			img
+				height: 80px
+			&:before
+				font-size: 90px
+				left: 0
+				top: -15px
+
+		.item-wrapp 
+			strong
+				font-size: 13px	
+			p
+				font-size: 12px	
+		.content-block
+			padding-top: 11px				
+
+	.advantages
+		padding-top: 70px
+		padding-bottom: 70px
+		h2
+			font-size: 36px
+			text-align: center
+		&__list
+			max-width: none
+			margin-right: 0
+		&__card
+			display: none
+
+
+@media only screen and (max-width : 767px)
+	.proposition 
+		
+
+		.card
+			height: 290px
+			&:hover
+				padding: 40px
+				h3,strong,p,a
+					text-align: center
+				strong
+					br
+						display: none
+					&:before
+						left: 32%	
+				img
+					left: 30%		
+				.propos-btn
+					display: block
+					margin: 0 auto								
+					
+	.company__wrapper 
+		.swiper-wrapper 
+			.swiper-slide 
+				.down-content
+					margin-left: 30px
+				.text-block
+					strong
+						margin-left: 0		
+		.swiper-button-prev
+			left: 84%		
+		.news-prev
+			left: 84%	
+			top: 65px
+		.news-next
+			left: 90%		
+			top: 65px
+	.form-block
+		padding-top: 40px
+		padding-bottom: 40px
+		background-size: 150% 100%
+		z-index: 1
+		&:before
+			display: none
+			
+		.coin-form
+			z-index: -1
+			top: 50px
+		h2
+			text-align: center
+			font-size: 26px
+		p
+			text-align: center
+			font-size: 16px
+					
+		&__content 
+			form
+				flex-direction: column	
+				display: flex
+				justify-content: center
+				align-items: center
+			p
+				margin-bottom: 15px	
+		.request-form__field
+			margin-bottom: 20px		
+	.partners
+		padding-top: 20px
+		padding-bottom: 40px
+		h2
+			font-size: 30px
+		&__wrap
+			padding-bottom: 50px
+			padding-top: 30px	
+
+	.piramid
+		padding-top: 240px	
+
+	.sources
+		&__icon
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			&:before
+				font-size: 60px
+				top: 0
+		.content-block
+			margin-bottom: 0
+		.item-wrapp
+			margin-bottom: 10px
+			width: 100%	
+
+
+	.advantages
+		&__list
+			column-count: 1
+		&__title
+			padding-top: 15px
+			padding-bottom: 15px
+
+
+
+
+@media only screen and (max-width : 576px)
+	.hero
+		padding-top: 130px
+		padding-bottom: 60px
+		strong
+			font-size: 20px
+		h1
+			font-size: 26px	
+		p
+			font-size: 14px
+		&__content
+			margin-bottom: 20px	
+	.proposition
+		h2
+			font-size: 30px		
+			word-spacing: 7px
+			&:before
+				width: 60px
+				
+	.company
+		h2
+			font-size: 28px		
+	.map__card
+		height: 325px
+		margin-bottom: 40px
+		position: static
+		width: 100%
+	
+
+		padding: 20px 0 0 0
+		h2
+			text-align: center
+			word-spacing: 15px
+			br
+				display: none
+				text-align: center
+		
+		.list
+			width: 80%
+			margin-left: 20px	
+			margin-bottom: 20px
+			.map-raund	
+				display: none
+	.piramid
+		padding-top: 180px		
+
+	.map__card h2
+		word-spacing: 5px	
+
+
+
+
+
+@media only screen and (max-width : 480px)
+
+	.nav
+		&-active
+			.language-chooser
+				display: block
+			.header__contacts
+				display: block
+	.header
+		.language-chooser
+			display: none
+		&__contacts
+			display: none
+	.hero
+		padding-top: 100px
+		h1
+			font-size: 22px
+			text-align: center
+			
+			br
+				display: none
+		strong
+			text-align: center
+		p
+			text-align: center
+		&__content
+			text-align: center
+		a
+			display: block
+			margin: 0 auto 
+					
+													
+												
+	.company__wrapper 
+		.swiper-button-prev
+			left: 80%		
+		.news-prev
+			left: 80%	
+			height: 27px
+			width: 44px
+		.news-next 
+			left: auto
+			right: 0
+			height: 27px
+			width: 44px
+
+	.form-block
+		background-size: 215% 100%
+		background-position: 28% 50%
+		.coin-form
+			display: none
+	.partners__wrap-card p
+		width: 80%		
+
+	.proposition 
+		h2
+			font-size: 26px
+			margin-bottom: 5px
+			&:before
+				display: none
+		p
+			font-size: 13px
+			br
+				display: none
+
+	.advantages
+		h2
+			font-size: 26px
+	.proposition .card:hover strong:before
+		left: 50%
+		transform: translate(-50%,-50%)		

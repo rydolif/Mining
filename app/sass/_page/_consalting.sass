@@ -1,0 +1,254 @@
+.header-active
+	.nav
+		border-right: 1px solid #fff
+	.internal-nav 
+		a
+			color: #fff
+		.language-chooser 
+			span
+				color: #fff	
+		.header__contacts
+			text-align: center
+			
+			a
+				&:nth-child(1)
+					color: #fff	
+	.nav-active .header__contacts
+		margin-right: 0
+		text-align: center
+
+.internal-nav
+	a
+		color: #384656
+	.language-chooser 	
+		span
+			color: #063980	
+	.header__contacts
+		a
+			color: #17b991
+			&:nth-child(1)
+				color: #063980	
+
+.second-bg
+	overflow: visible
+	position: relative
+	margin-top: 100px
+	background: url("../img/second-bg.jpg") no-repeat center top / cover !important
+	padding-top: 0 !important
+	padding-bottom: 0
+	height: 300px
+	.raund
+		position: absolute
+		bottom: -100px
+		z-index: 1
+		left: 80%
+		height: 250px
+		width: 240px
+
+	.hero__content
+
+		margin-bottom: 0
+		h1
+			position: relative
+			font-weight: 400
+			line-height: 1
+			z-index: 1
+		h3
+			text-transform: uppercase
+			color: #0774fa
+			font-size: 48px
+			position: absolute
+			top: 43%
+			left: 150px
+			opacity: 0.8
+			z-index: 0
+			font-weight: 700
+	.breadcrumb
+		text-align: right
+		position: relative
+		z-index: 2
+		a
+			
+			color: #fff
+
+.consalting-bg
+	padding-top: 200px						
+.main
+	overflow: hidden
+
+.partnership
+	padding-top: 70px	
+		
+	&__wrap
+		padding-bottom: 50px
+		border-bottom: 1px solid #3089fc						
+		display: flex
+		flex-direction: row	
+		h2
+			margin-right: 100px	
+			color: #053880	
+			font-size: 48px	
+			font-weight: 400
+			text-align: left
+			line-height: 1.2	
+			&:before
+				display: none	
+		.text-block
+			padding-top: 40px	
+			display: flex
+			flex-direction: column				
+			p
+				font-size: 18px	
+				color: #6b6b6b	
+				font-weight: 400	
+				margin-bottom: 25px	
+
+.partners-card
+	padding-top: 80px
+	padding-bottom: 100px
+	&__wrap
+		padding: 60px 30px 50px 30px
+		box-shadow: 0 10px 30px rgba(#031f31, .35)
+		background-repeat: no-repeat
+		background-size: 25%
+		background-position: 95% 95%
+		display: flex
+		flex-direction: column
+		strong
+			color: #053880	
+			font-weight: 400	
+			font-size: 30px
+			margin-bottom: 50px
+			position: relative
+			display: block
+			&:before
+				position: absolute
+				content: ''
+				bottom: -20px
+				left: 0
+				height: 1px
+				width: 100px
+				background-color: #2adb64	
+		p
+			font-size: 14px	
+			color: #999	
+			font-weight: 400
+			margin-bottom: 50px
+		
+			
+	.partner-btn
+		margin-top: auto
+		
+		background: none
+		padding: 0 52px
+		border-image: linear-gradient (to bottom,#37f147,#17b991)	
+		border-width: 1px
+		border-style: solid
+		color: #2ee359
+		border-bottom: 1px solid #17b991
+		&:before
+			display: none
+.krosh
+	display: inline-block		
+																													
+@media only screen and (max-width : 1200px)
+	.partners-card
+		&__wrap
+			min-height: 580px
+@media only screen and (max-width : 992px)
+	
+	.second-bg
+		height: 260px
+		margin-top: 70px
+		.raund
+			display: none
+			
+		.hero__content
+
+			h3
+				display: none
+	.consalting-bg
+		padding-top: 170px
+	.partnership
+		&__wrap
+			h2
+				font-size: 36px
+				margin-right: 70px
+		.text-block
+			p
+				font-size: 14px		
+	.partners-card
+		&__wrap
+			padding: 30px
+			min-height: 550px
+			background-image: none !important
+			strong
+				line-height: 1.3
+				font-size: 26px	
+				margin-bottom: 30px
+				&:before
+					bottom: -10px	
+		.partner-btn
+			margin: auto					
+@media only screen and (max-width : 767px)
+	
+	.partnership
+		padding-top: 40px
+		&__wrap
+			display: flex
+			flex-direction: column
+			align-items: center
+			text-align: center
+			h2
+				margin-right: 0
+				font-size: 30px
+				text-align: center
+				margin-bottom: 20px
+			a
+				margin: 0 auto	
+				
+					
+			
+	.partners-card
+		padding-top: 60px
+		padding-bottom: 0
+		&__wrap
+			min-height: 450px
+			margin-bottom: 40px
+
+@media only screen and (max-width : 576px)
+	.second-bg 
+		.breadcrumb
+			text-align: center
+		.hero__content
+		
+			h1
+				text-align: center
+				margin-bottom: 20px
+	.consalting-bg
+		padding-top: 110px
+	.breadcrumb
+
+		a
+
+			max-width: 100%
+			display: block
+			overflow: hidden
+			text-overflow: ellipsis
+		span
+			&:nth-child(1)
+		
+		.breadcrumb_last
+			
+			display: block
+			white-space: nowrap
+			overflow: hidden
+			text-overflow: ellipsis		
+		.krosh
+			max-width: 100%
+			display: inline-flex
+			span
+				margin-left: 5px	
+				margin-right: 5px
+			a
+					

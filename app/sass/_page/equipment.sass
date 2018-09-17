@@ -1,0 +1,233 @@
+.calculator-price
+	padding-top: 80px
+	padding-bottom: 105px
+	display: flex
+	flex-direction: column
+	&__wrap
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+	h2
+		text-align: left
+		font-size: 48px
+		font-weight: 300
+		margin-bottom: 45px
+		line-height: 1.1
+		text-transform: initial
+
+		&:before
+			left: 50px
+			bottom: -20px
+	p
+		font-weight: 400
+		font-size: 16px
+		color: #6b6b6b
+	.text-block
+		display: flex
+		flex-direction: column
+		padding-top: 40px
+		width: 42%	
+	.price
+		width: 50%
+		padding: 40px 40px 15px 40px
+		box-shadow: 0 25px 50px rgba(#01132a, .15)
+		h3
+			font-size: 30px
+			font-weight: 400
+			color: #384656
+	.price__calc-item
+		display: flex
+		flex-direction: row
+		justify-content: space-between	
+		color: #000	
+		margin-bottom: 25px
+		align-items: center
+	.custom-slider
+		width: 63%
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		align-items: center
+		// flex-direction: column
+
+	#slider-two
+		width: 200px
+
+	#slider
+		width: 200px
+	
+	.additionalValue
+		appearance: none
+		width: 85px
+		background-color: #f2f5fa
+		color: #999
+		border: none
+		text-align: center
+		height: 45px
+	.noUi-horizontal 
+		height: 6px	
+		background-color: #f1f3f9	
+		border: none	
+	.noUi-connect 
+		background-color: #1ec680
+	.noUi-horizontal .noUi-handle 
+		width: 20px
+		height: 20px
+		border-radius: 50%
+		background-color: #1ec680
+		border: 6px solid #fff
+		box-shadow: 0 5px 5px rgba(#01132a, .15)
+	.noUi-horizontal .noUi-handle
+			top: -9px		
+	.noUi-handle
+		&:before
+			display: none
+		&:after
+			display: none
+	#system
+		appearance: none
+		border: none
+		background-color: #f2f5fa
+		color: #999
+		text-align: center	
+		padding: 10px 40px 10px 30px
+		appearance: none	
+		width: 300px
+		cursor: pointer
+		max-width: 100%
+		display: block
+		overflow: hidden
+		text-overflow: ellipsis
+		option
+			width: 300px
+			background: none
+			border: none
+			max-width: 100%
+			display: block
+			overflow: hidden
+			text-overflow: ellipsis
+		
+	.custom-select	
+		position: relative
+		width: 300px
+		&:before 
+			content: "▼"
+			padding: 0 8px
+			font-size: 12px
+			position: absolute 
+			right: 20px
+			top: 13px
+			color: #84a2bb
+			z-index: 1
+			text-align: center
+			width: 10%
+			height: 100%
+			pointer-events: none
+			box-sizing: border-box
+		option
+			width: 300px	
+	.price__calc-item-title
+		color: #6b6b6b
+		font-size: 14px
+		font-weight: 400	
+		.partner-btn
+			background: none
+			padding: 0 52px
+			border-image: linear-gradient (to bottom,#37f147,#17b991)	
+			border-width: 1px
+			border-style: solid
+			color: #2ee359
+			border-bottom: 1px solid #17b991
+			&:before
+				display: none
+	.total-price
+		color: #384656
+		font-size: 18px
+		font-weight: 300
+		#total_cost
+			font-size: 30px
+			font-weight: 400
+			color: #384656
+		span
+			font-size: 18px
+			text-transform: uppercase
+			font-weight: 400
+@media only screen and (max-width : 1200px)
+	.calculator-price 
+		padding-top: 0
+		padding-bottom: 60px
+		h2
+			font-size: 32px	
+			margin-bottom: 35px
+		p
+			font-size: 14px			
+	.calculator-price__wrap
+		flex-direction: column
+	.calculator-price
+		.text-block
+			width: 100%
+			margin-bottom: 30px
+		.price
+			width: 100%	
+		#slider
+			width: 300px
+		#slider-two
+			width: 300px							
+@media only screen and (max-width : 992px)
+	.calculator-price
+		#slider
+			width: 200px
+		#slider-two
+			width: 200px	
+@media only screen and (max-width : 767px)
+	.calculator-price
+		#slider
+			width: 150px
+		#slider-two
+			width: 150px				
+		.price
+			h3
+				font-size: 24px	
+		#system
+			width: 200px
+	.calculator-price
+		.custom-select
+			width: 200px
+		.total-price
+			span
+				font-size: 14px
+			#total_cost
+				font-size: 18px				
+
+@media only screen and (max-width : 576px)	
+	.calculator-price 
+		.price 
+			h3
+				text-align: center
+			&__calc-item-title	
+				margin-bottom: 15px	
+		.custom-slider
+			width: 100%	
+			
+		#slider
+			
+			width: 70%
+		#slider-two
+			width: 70%	
+			
+	.calculator-price .price__calc-item
+		flex-direction: column	
+	.price__calc-item_block 
+		.custom-slider
+			flex-direction: column			
+
+@media only screen and (max-width : 480px)	
+	.price
+		padding: 15px	
+	.calculator-price 
+		#slider
+			width: 60%
+		#slider-two			
+			width: 60%
+		.price
+			padding: 15px		

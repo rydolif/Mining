@@ -1,0 +1,47 @@
+.btn
+	position: relative
+	display: inline-block
+	height: 50px
+	border: none
+	outline: none
+	width: 235px
+	padding: 0 52px 0 25px
+	border-radius: 4px
+	background: linear-gradient(to bottom, #32e951, #1ec581)
+	text-align: center
+	border-radius: 50px
+	text-transform: uppercase
+	font-size: 12px
+	color: #fff
+	line-height: 50px
+	font-weight: 700
+	letter-spacing: .2px
+	border-bottom: 3px solid #149164
+	&:before
+		content: '\f30b'
+		position: absolute	
+		font-weight: 700
+		font-family: $fontawesome	
+		right: 55px	
+		font-size: 16px
+	&:hover
+		outline: none
+		border: none
+		text-decoration: none
+		cursor: pointer
+		transition: all .3s
+		box-shadow: 0 5px 10px rgba(#46d39b, .4)
+		color: #3f7a05
+
+	&:focus
+		outline: none
+		border: none
+		text-decoration: none
+		cursor: pointer
+		transition: all .3s
+		box-shadow: 0 5px 10px rgba($text, .4)
+		color: #3f7a05
+	img
+		width: 22px
+		height: 10px
+		margin-left: 15px

@@ -1,0 +1,183 @@
+@import "fonts"
+
+
+//----------------------fonts---------------------
+$fonts: 'OpenSans', sans-serif
+$title: 'Panton', sans-serif
+$fontawesome: 'fontawesome', sans-serif
+$bebas: 'Bebas Neue Regular', sans-serif
+//---------------------end-fonts---------------------
+
+//----------------------color---------------------
+$accent: #000
+$text: #fafafa
+$catalina-blue:  #043980
+$science-blue:   #0563db
+$azure-radiance: #0993f3
+$hawkws-blue:    #daecfc
+$mine-shaft:     #343434
+//---------------------end-color---------------------
+
+html
+	overflow-x: hidden
+body
+	overflow-x: hidden
+	position: relative
+	min-width: 320px
+	font-family: $fonts
+	font-size: 14px
+	color: $text
+	line-height: 1.75
+	font-weight: 400
+
+::selection
+	background-color: $accent
+	color: #fff
+
+a, div, ul, li, input, textarea
+	&:hover,
+	&:focus
+		outline: none
+
+section
+	overflow: hidden
+	
+h1, h2, h3, h4, h5, h6
+	font-weight: 700
+	line-height: 1.4
+	margin: 0
+	padding: 0
+	font-family: $title
+h1
+	font-size: 48px
+	font-weight: 600
+h2
+	position: relative
+	font-size: 48px
+	text-transform: uppercase
+	color: #0a68e9
+	text-align: center
+
+	
+	&:before
+		position: absolute
+		content: ''
+		height: 1px
+		width: 100px
+		bottom: 0	
+		left: 50%
+		background-color: #2adb64
+		transform: translate(-50%, -50%)	
+
+ul
+	margin: 0
+	padding: 0
+	list-style-type: none
+
+i
+	font-style: normal
+	font-size: 16px
+	color: #fff
+
+input, textarea
+	border: #808080 1px solid
+	border-radius: 0
+	outline: none
+	box-shadow: none
+	-webkit-appearance: none
+	&:focus:required:invalid
+		border-color: #808080
+		outline: none
+		box-shadow: none
+		-webkit-appearance: non
+	&:required:valid
+		border-color: #808080
+		outline: none
+		box-shadow: none
+		-webkit-appearance: non
+
+	&::placeholder
+		color: #fff
+		font-size: 12px
+		text-transform: uppercase
+		line-height: 1
+
+b, strong
+	font-weight: 700
+
+p
+	margin: 0
+	padding: 0
+	color: #6a6a6a
+
+a,
+a:focus,
+a:hover
+	outline: none
+	text-decoration: none
+
+.link,.consultation
+	position: relative
+	z-index: 1
+	font-size: 12px
+	text-transform: uppercase
+	color: #fff
+	&::before
+		content: ''
+		width: 0
+		transform: scale(0)
+		transition: all .3s
+		position: absolute
+		bottom: 0
+		width: 100%
+		height: 1px
+		background-color: #2adb64
+		z-index: -1
+
+	&:hover
+		color: #45d8a4
+		text-decoration: none
+		&::before
+			transform: scale(1)
+
+	&:focus
+		color: #45d8a4
+		text-decoration: none
+		&::before
+			transform: scale(1)
+
+.language-chooser
+	a
+		position: relative
+		z-index: 1
+		text-transform: uppercase
+		color: #fff
+		&::before
+			content: ''
+			width: 0
+			transform: scale(0)
+			transition: all .3s
+			position: absolute
+			bottom: 0
+			width: 100%
+			height: 1px
+			background-color: #2adb64
+			z-index: -1
+
+		&:hover
+			color: #45d8a4
+			text-decoration: none
+			&::before
+				transform: scale(1)
+
+		&:focus
+			color: $accent
+			text-decoration: none
+			&::before
+				transform: scale(1)
+@import "_base/preloader"
+@import "_base/animation"
+@import "_base/btn"
+@import "_base/form"
+@import "_base/modal"
+@import "_base/hamburger"

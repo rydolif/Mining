@@ -1,0 +1,89 @@
+.modal
+	position: relative
+	overflow: hidden
+	max-width: 320px
+	height: auto
+	padding: 50px 30px
+	background-color: #fff
+	z-index: 1
+	h2
+		color: #063980
+		font-size: 28px
+		text-align: center
+		text-transform: uppercase
+		margin-bottom: 25px
+	p
+		font-size: 14px
+		color: #063980
+
+		text-align: center
+		margin-bottom: 15px
+		
+			 		 		 		 			 		 		 		 		
+	label.error
+		position: absolute
+		top: -20px
+		right: 0
+		left: 0
+		transition: all .3s
+		animation: error .3s linear 1 forwards
+		color: red
+		text-align: center
+		font-weight: 400
+
+	.btn
+		width: 100%
+		padding: 18px 0
+		font-size: 12px
+
+	.close
+		position: absolute
+		right: 15px
+		top: 15px
+		display: block
+		background: url(../img/icon/close.svg)
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: center
+		width: 20px
+		height: 20px
+		border: none
+		outline: none
+		cursor: pointer
+		animation: hover-back .2s ease-in forwards
+		&:hover
+			animation: hover .2s ease-in forwards
+	.footer__form_line
+		text-align: center
+		position: relative
+		
+		input
+			margin-bottom: 20px
+			width: 100%
+			padding: 10px
+			color: #000		
+			border: none
+			border-bottom: 1px solid #3dd4af
+			border-top: none
+			border-left: none
+			border-right: none
+			position: relative
+			&::placeholder
+				color: #063980		
+	.footer__form_btn
+		padding: 0
+		&:before
+			display: none
+	.form-1
+		.footer__form_btn
+			margin-top: 20px
+#thanks
+	h3
+		text-align: center
+		font-size: 20px						
+		color: #063980	
+	p
+		margin-bottom: 0		
+									
+	
+
